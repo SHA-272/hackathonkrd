@@ -1,0 +1,12 @@
+venv
+nsfw
+*.keras
+__pycache__
+alcohol
+bloody_scenes
+drugs
+porn
+safe_content
+smoking
+test
+res.txt
