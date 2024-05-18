@@ -1,0 +1,134 @@
+@font-face {
+  font-family: PixelFont;
+  src: url(./pixeltimes.ttf);
+}
+
+@keyframes neonGlow {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+::selection {
+  background: var(--fore-color);
+  color: var(--back-color);
+}
+
+:root {
+  --back-color: black;
+  --back-color-transparent: rgba(0, 0, 0, 0.5);
+  --fore-color: rgb(195, 0, 255);
+  --fore-color-1: rgb(255, 119, 244);
+  --fore-color-2: rgb(202, 124, 255);
+  --fore-color-3: rgb(92, 233, 255);
+  --fore-color-4: rgb(255, 114, 92);
+  --font-color: rgb(220, 180, 252);
+  --font-color-1: rgb(131, 181, 233);
+  --bloom-filter: drop-shadow(0 0 5px var(--fore-color));
+  --back-color-fore-1: rgba(195, 0, 255, 0.3);
+  --back-color-fore-2: rgb(61, 0, 80);
+  --back-color-fore-3: rgb(113, 0, 148);
+  --back-color-fore-4: rgb(0, 44, 88);
+  --font-color-2: rgb(55, 22, 17);
+}
+
+body {
+  background-color: var(--back-color);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 200vh;
+  color: var(--fore-color-2);
+  font-family: "PixelFont", monospace;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 2vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: var(--fore-color-3);
+}
+
+canvas {
+  position: absolute;
+  z-index: -100;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a,
+a:visited,
+a:focus {
+  font-size: 15px;
+  color: var(--back-color-fore-3);
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.6);
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.6));
+}
+
+input[type="text"] {
+  background-color: var(--back-color-fore-4);
+  font-family: "PixelFont", monospace;
+  font-size: 25px;
+  color: var(--fore-color-3);
+  width: 50vw;
+  border: 3px solid var(--fore-color-3);
+  padding: 5px;
+}
+
+input[type="text"]::content {
+  color: var(--fore-color-3);
+  font-size: 25px;
+}
+
+input[type="text"]::placeholder {
+  color: var(--font-color-1);
+  font-size: 25px;
+}
+
+button {
+  background-color: black;
+  font-family: "PixelFont", monospace;
+  font-size: 25px;
+  color: var(--fore-color-1);
+  border: 3px solid var(--fore-color-1);
+  padding: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  color: black;
+  background-color: var(--fore-color-1);
+  cursor: pointer;
+}
+
+button:focus {
+  transform: translateY(10px);
+}
+
+.ui {
+  text-align: center;
+}

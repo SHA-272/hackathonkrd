@@ -18,19 +18,15 @@ def classify():
 
     url = request.json["url"]
 
-    start_time = time.time()
-
     capture = videostream_extractor.get_video_stream(url)
 
-    print('Video extract', time.time() - start_time)
-    extract_time = time.time()
+    if not capture:
+        return jsonify({"error": "The video stream cannot be opened"}), 400
 
     if not capture.isOpened():
         return jsonify({"error": "The video stream cannot be opened"}), 400
 
     result = classificator.classify_video(capture)
-
-    print("Classificate", time.time() - extract_time)
 
     results = {"result": result}
     return jsonify(results)

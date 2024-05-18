@@ -2,6 +2,7 @@ import tensorflow as tf
 import cv2
 from PIL import Image
 from collections import Counter
+import speech_recognition
 
 class_labels = {
     'alcohol': 0,
@@ -13,7 +14,7 @@ class_labels = {
 }
 img_height, img_width = 224, 224
 
-model = tf.keras.models.load_model('../models/model_1716039532.keras')
+model = tf.keras.models.load_model('../models/model_1716044946.keras')
 
 def classify_image(image: Image) -> tuple[str, float]:
     img = image.resize((img_height, img_width))
@@ -51,3 +52,6 @@ def classify_video(capture: cv2.VideoCapture) -> str:
     
     most_common_label = label_counts.most_common(1)[0][0]
     return most_common_label
+
+def classify_audio():
+    speech_recognition.AudioData()
