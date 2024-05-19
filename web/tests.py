@@ -36,7 +36,6 @@ with open('res.txt', 'w') as f:
             max_value = 0
             max_category = ''
             for category, values in res.items():
-                # Проверяем второе число в текущей категории
                 if values[1] > max_value:
                     max_value = values[1]
                     max_category = category
@@ -46,9 +45,5 @@ with open('res.txt', 'w') as f:
             print(s)
         except Exception as e:
             print(e)
-        finally:
-            s = url + "\t\t" + 'error' + "\t\t" + 'error' + "\n"
-            text += s
-            print(s)
 
     f.write(text)

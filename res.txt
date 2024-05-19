@@ -14,9 +14,9 @@ https://www.youtube.com/watch?v=kAC1nwja5po		safe_content		{"smoking": [9, 649],
 https://www.youtube.com/watch?v=K2hl-zy67Ec		safe_content		{"safe_content": [13, 1131], "porn": [9, 806], "alcohol": [4, 297], "smoking": [5, 394]}
 https://www.youtube.com/watch?v=Lbj5C-Sw2_A		porn		{"porn": [18, 1511], "alcohol": [5, 390], "safe_content": [6, 494], "smoking": [2, 143]}
 https://www.youtube.com/watch?v=xhNv476tAs8		safe_content		{"porn": [4, 322], "drugs": [1, 36], "safe_content": [14, 1253], "alcohol": [9, 779], "smoking": [3, 282]}
-https://www.youtube.com/watch?v=Lt_HUzZUDHw		safe_content		{"safe_content": [20, 1791], "alcohol": [5, 387], "porn": [6, 455]}
+https://www.youtube.com/watch?v=Lt_HUzZUDHw		safe_content		{"safe_content": [20, 1792], "alcohol": [5, 386], "porn": [6, 455]}
 https://nuum.ru/clips/2137212-bombicheskuiu-devochku-v-topy-srochno-top-rekomendatsii				{}
 https://nuum.ru/videos/1540924-shikarnaia-podborka-ochen-smeshnykh-anekdotov-top-14				{}
 https://nuum.ru/channel/krasivo/clips/2137178--ofis-rabota-krasivaia-top-podpiska-vzaimno				{}
 https://nuum.ru/channel/krasivo/clips/2121447--leto-muzyka-plate-vzaimno-podpiska				{}
-https://rutube.ru/video/aa6e284ccace8e57567c17905b9e60a2/				{}
+https://rutube.ru/video/aa6e284ccace8e57567c17905b9e60a2/		porn		{"porn": [12, 927], "smoking": [6, 451], "safe_content": [9, 786], "alcohol": [4, 385]}

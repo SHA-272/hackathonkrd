@@ -13,7 +13,7 @@ class_labels = {
 }
 img_height, img_width = 224, 224
 
-model = tf.keras.models.load_model("./models/model_1716112100.keras")
+model = tf.keras.models.load_model("./models/model_1716044946.keras")
 # audio_model = vosk.Model("./audio_model/vosk-model-small-ru-0.22")
 # rec = vosk.KaldiRecognizer(audio_model, 16000)
 
