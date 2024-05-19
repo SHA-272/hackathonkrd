@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-import time
+import cv2
 import classificator
 import videostream_extractor
 
@@ -18,7 +18,7 @@ def classify():
 
     url = request.json["url"]
 
-    capture = videostream_extractor.get_video_stream(url)
+    capture = cv2.VideoCapture(videostream_extractor.get_video_stream(url))
 
     if not capture:
         return jsonify({"error": "The video stream cannot be opened"}), 400
@@ -28,8 +28,7 @@ def classify():
 
     result = classificator.classify_video(capture)
 
-    results = {"result": result}
-    return jsonify(results)
+    return jsonify(result)
 
 
 if __name__ == "__main__":

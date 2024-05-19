@@ -117,6 +117,7 @@ button {
   border: 3px solid var(--fore-color-1);
   padding: 5px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 button:hover {
@@ -131,4 +132,9 @@ button:focus {
 
 .ui {
   text-align: center;
+}
+
+.highlight {
+  font-weight: bold;
+  color: var(--fore-color-1);
 }

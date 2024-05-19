@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=liNSvgaMjTc		alcohol		{"porn": [7, 563], "safe_content": [7, 550], "smoking": [5, 389], "alcohol": [10, 900], "bloody_scenes": [2, 95]}
+https://www.youtube.com/watch?v=CHYlH9pPYxU		safe_content		{"safe_content": [19, 1525], "bloody_scenes": [1, 59], "alcohol": [4, 327], "porn": [2, 149], "smoking": [5, 364]}
+https://www.youtube.com/watch?v=0a-a8GMe090		safe_content		{"porn": [7, 596], "safe_content": [12, 1003], "alcohol": [6, 522], "bloody_scenes": [1, 100], "smoking": [4, 311]}
+https://www.youtube.com/watch?v=7124jZIZauI		safe_content		{"safe_content": [20, 1476], "porn": [8, 706], "alcohol": [1, 46], "smoking": [2, 143]}
+https://www.youtube.com/watch?v=n1zw9aoTqpk&list=PL5ayj0VlpHfPP4UVyg4WRwlNf5e3nlyAo		smoking		{"smoking": [14, 939], "alcohol": [6, 372], "porn": [5, 317], "safe_content": [2, 192], "bloody_scenes": [4, 321]}
+https://www.youtube.com/watch?v=NlCzS5Y1G4o&list=PLQs3W11UxdHbyuaBD-uSmLsGq5pm-6uPl&index=3		safe_content		{"porn": [10, 908], "safe_content": [15, 1308], "alcohol": [5, 376], "drugs": [1, 97]}
+https://www.youtube.com/watch?v=cN7XXLyb1Fo		safe_content		{"safe_content": [11, 935], "porn": [6, 499], "smoking": [10, 780], "alcohol": [4, 266]}
+https://www.youtube.com/watch?v=ZgKcRIITHRY		safe_content		{"smoking": [5, 380], "porn": [10, 796], "safe_content": [12, 1013], "alcohol": [3, 170], "bloody_scenes": [1, 89]}
+https://www.youtube.com/watch?v=8wn9x40ze_w		safe_content		{"alcohol": [4, 351], "safe_content": [19, 1679], "smoking": [4, 301], "porn": [4, 293]}
+https://www.youtube.com/watch?v=yO9RkL1W01U		alcohol		{"alcohol": [30, 2972]}
+https://www.youtube.com/watch?v=d_YNOOUjeHw		safe_content		{"porn": [4, 375], "safe_content": [12, 1189], "alcohol": [12, 1106], "smoking": [2, 145], "bloody_scenes": [1, 88]}
+https://www.youtube.com/watch?v=PhaPiPl_Zm8		safe_content		{"safe_content": [31, 3073]}
+https://www.youtube.com/watch?v=kAC1nwja5po		safe_content		{"smoking": [9, 649], "alcohol": [1, 73], "safe_content": [14, 1072], "porn": [7, 570]}
+https://www.youtube.com/watch?v=K2hl-zy67Ec		safe_content		{"safe_content": [13, 1131], "porn": [9, 806], "alcohol": [4, 297], "smoking": [5, 394]}
+https://www.youtube.com/watch?v=Lbj5C-Sw2_A		porn		{"porn": [18, 1511], "alcohol": [5, 390], "safe_content": [6, 494], "smoking": [2, 143]}
+https://www.youtube.com/watch?v=xhNv476tAs8		safe_content		{"porn": [4, 322], "drugs": [1, 36], "safe_content": [14, 1253], "alcohol": [9, 779], "smoking": [3, 282]}
+https://www.youtube.com/watch?v=Lt_HUzZUDHw		safe_content		{"safe_content": [20, 1791], "alcohol": [5, 387], "porn": [6, 455]}
+https://nuum.ru/clips/2137212-bombicheskuiu-devochku-v-topy-srochno-top-rekomendatsii				{}
+https://nuum.ru/videos/1540924-shikarnaia-podborka-ochen-smeshnykh-anekdotov-top-14				{}
+https://nuum.ru/channel/krasivo/clips/2137178--ofis-rabota-krasivaia-top-podpiska-vzaimno				{}
+https://nuum.ru/channel/krasivo/clips/2121447--leto-muzyka-plate-vzaimno-podpiska				{}
+https://rutube.ru/video/aa6e284ccace8e57567c17905b9e60a2/				{}

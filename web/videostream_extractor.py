@@ -9,12 +9,12 @@ params = {
 }
 
 
-def get_video_stream(url: str) -> cv2.VideoCapture:
+def get_video_stream(url: str) -> str:
     with yt_dlp.YoutubeDL(params) as ydl:
         try:
             info = ydl.extract_info(url, download=False)
             video_url = info["url"]
-            return cv2.VideoCapture(video_url)
+            return video_url
         except Exception as e:
             print(f"Error extracting video URL: {e}")
             return None
